@@ -746,4 +746,7 @@ footer #address i:hover{
 
 #madeby a{
 	color:white;
+	text-decoration:none;
+	position:relative;
+	top:5px;
 }
