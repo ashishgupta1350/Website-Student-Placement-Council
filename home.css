@@ -192,7 +192,6 @@ video{
 }
 hr{
 	width:75%;
-	border-width:5px;
 	color:white;
 }
 
@@ -320,28 +319,6 @@ hr{
 }
 
 }
-@media screen and (max-width: 767px) {
-	.contactus h1{
-		font-size:25px;
-	}
-	.contactus h3{
-		font-size:17px;
-	}
-	.contactus i{
-		font-size: 30px;
-	}
-    }
-    @media screen and (min-width: 768px){
-	.contactus h1{
-		font-size:30px;
-	}
-	.contactus h3{
-		font-size:17px;
-	}
-	.contactus i{
-		font-size: 30px;
-	}
-    }
 
 @media screen and (min-width: 70px) and (max-width: 900px) {
     .my-navbar li{
@@ -695,10 +672,78 @@ h5{
 	margin-top: -5px;
 }
 }
-@media screen and (min-width:768px) and (max-width: 991px) {
-        
-}
-@media screen and (min-width:992px) and (max-width: 1200px) {
-        
+
+footer{
+	background-color: #222;
+	margin-top:35px;
+	padding-top:30px;
+	padding-bottom:30px;
+
 }
 
+footer section{
+	color:white;
+	font-family:Fira Sans; 
+}
+
+footer .row{
+	margin-bottom:10px;
+}
+
+#hours,#address{
+	line-height: 2;
+}
+
+#inside{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#testimonial p{
+	margin-top:15px;
+}
+
+footer #hours span:nth-child(1){
+	font-size:25px;
+}
+
+footer #address span:nth-child(1){
+	font-size:25px;
+}
+
+footer #address i{
+	color:white;
+	margin:20px 20px 20px 17px;
+}
+
+footer #address i:hover{
+	color:black;
+	
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+	#hours,#address{
+		margin-top:20px;
+	}
+}
+@media screen and (min-width:1px) and (max-width:767px){
+	footer section{
+		text-align:center;
+		margin-bottom:30px;
+	}
+
+	footer section hr{
+		width:50%;
+	}
+}
+
+#madeby{
+	color:white;
+	background-color: black;
+	padding:10px;
+	font-family: Fira Sans;
+}
+
+#madeby a{
+	color:white;
+}
